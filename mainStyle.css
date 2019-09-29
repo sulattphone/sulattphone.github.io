@@ -1,6 +1,26 @@
-.pageTitle
-{
+/***** Universal *****/
+.pageTitle{
     text-align: center;
-    font-color: yellow;
     text-shadow: 2em;
 }
+
+.normalText{
+    font-family: 'Lucida Calligraphy', 'Times New Roman', sans-serif;
+}
+
+.background{
+    background-color: yellow;
+}
+
+
+/***** Universal *****/
+
+/***** index.html *****/
+
+
+/***** index.html *****/
+
+/***** projects.html *****/
+
+
+/***** projects.html *****/
