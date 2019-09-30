@@ -39,8 +39,7 @@
 }
 
 .profile-img{
-    width: 100px !important;
-    height: 100px !important;
+    height: 50% !important;
     border-radius: 50%;
 }
 
