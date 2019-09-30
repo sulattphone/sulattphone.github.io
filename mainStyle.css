@@ -3,6 +3,11 @@
     background-color: yellow;
 }
 
+#brand-img{
+    width: 1em;
+    height: 1em;
+}
+
 .page-title{
     color: red;
 }
@@ -34,8 +39,8 @@
 }
 
 .profile-img{
-    height: 3em;
-    width: 3em;
+    height: 10em;
+    width: 10em;
     border-radius: 50%;
 }
 
