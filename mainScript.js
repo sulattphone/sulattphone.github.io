@@ -1,3 +1,3 @@
-$(function(){
-    $("#navigation-bar").load("navbar.html");
-  });
+$.get("navbar.html", function(data){
+    $("#navigation-bar").replaceWith(data);
+});
