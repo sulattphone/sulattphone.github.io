@@ -21,8 +21,7 @@
 }
 
 .content-body{
-    background-color: #ffffff;
-    fill-opacity: 0.1;
+    background: rgba(255,255,255, 0.2);
 }
 
 
