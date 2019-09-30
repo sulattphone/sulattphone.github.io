@@ -14,12 +14,24 @@
 
 /***** Universal *****/
 
-/***** index.html *****/
+/***** intro section *****/
+.intro-row{
 
+}
 
-/***** index.html *****/
+.intro-text-col{
+    text-align: center;
+}
 
-/***** projects.html *****/
+.intro-img-col{
+    text-align: center;
+}
 
+.profile-image{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+}
 
-/***** projects.html *****/
+/***** intro section *****/
+
