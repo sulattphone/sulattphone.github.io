@@ -1,14 +1,14 @@
 /***** Universal *****/
 .page-title{
-    color: red;
+    color: red !important;
 }
 
 .normalText{
-    font-family: 'Lucida Calligraphy', 'Times New Roman', sans-serif;
+    font-family: 'Lucida Calligraphy', 'Times New Roman', sans-serif !important;
 }
 
 .background{
-    background-color: #f9fe9f;
+    background-color: #f9fe9f !important;
 }
 
 
@@ -28,8 +28,8 @@
 }
 
 .profile-img{
-    height: 3em;
-    width: 3em;
+    height: 1em;
+    width: 1em;
     border-radius: 50%;
 }
 
