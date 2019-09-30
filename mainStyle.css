@@ -4,8 +4,8 @@
 }
 
 #brand-img{
-    width: 1.3em;
-    height: 1.3em;
+    width: 2em;
+    height: 2em;
 }
 
 .page-title{
@@ -30,16 +30,16 @@
 
 .intro-text-col{
     text-align: center;
-    padding: 2em;
+    padding: 1em;
 }
 
 .intro-img-col{
     text-align: center;
-    padding: 2em;
+    padding: 1em;
 }
 
 .profile-img{
-    height: 5% !important;
+    height: 100% !important;
     border-radius: 50%;
 }
 
