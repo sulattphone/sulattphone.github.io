@@ -20,6 +20,11 @@
     background-color: #f9fe9f;
 }
 
+.content-body{
+    background-color: #ffffff;
+    opacity: 30%;
+}
+
 
 /***** Universal *****/
 
@@ -45,3 +50,8 @@
 
 /***** intro section *****/
 
+/***** about section *****/
+.school{
+    font-weight: bold;
+}
+/***** about section *****/
