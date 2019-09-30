@@ -1,14 +1,18 @@
 /***** Universal *****/
+.custom-navbar{
+    background-color: yellow;
+}
+
 .page-title{
-    color: red !important;
+    color: red;
 }
 
 .normalText{
-    font-family: 'Lucida Calligraphy', 'Times New Roman', sans-serif !important;
+    font-family: 'Times New Roman', serif;
 }
 
 .background{
-    background-color: #f9fe9f !important;
+    background-color: #f9fe9f;
 }
 
 
@@ -21,15 +25,17 @@
 
 .intro-text-col{
     text-align: center;
+    padding: 2em;
 }
 
 .intro-img-col{
     text-align: center;
+    padding: 2em;
 }
 
 .profile-img{
-    height: 1em;
-    width: 1em;
+    height: 3em;
+    width: 3em;
     border-radius: 50%;
 }
 
