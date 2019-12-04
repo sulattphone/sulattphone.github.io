@@ -66,6 +66,11 @@ body{
 /***** about section *****/
 
 /***** footer section *****/
+.page-footer{
+    height: 30%;
+}
+
+
 .footer-body{
     background-color: #1f1f1f;
 }
