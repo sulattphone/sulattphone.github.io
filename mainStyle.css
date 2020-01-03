@@ -39,7 +39,7 @@ body{
 
 /***** intro section *****/
 .intro-row{
-
+    height: 30%;
 }
 
 .intro-text-col{
@@ -75,3 +75,37 @@ body{
     background-color: #1f1f1f;
 }
 /***** footer section *****/
+
+
+
+/* Responsive Media Queries */
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .intro-row{
+        
+    }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .intro-row{
+        
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .intro-row{
+
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .intro-row{
+
+    }
+ }
