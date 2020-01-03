@@ -40,6 +40,7 @@ body{
 /***** intro section *****/
 .intro-row{
     height: 30%;
+    background-image: url("images/intlOrienatation_square.jpg");
 }
 
 .intro-text-col{
