@@ -45,9 +45,9 @@
     
       <!-- <div data-spy="scroll" data-target="#navbar-example3" data-offset="100">-->
       <section id="intro">
-        <div class="row intro-row">
-          <div class="introOverlay">
-            <div class="col-md-7 intro-text-col">
+        <div class="row intro-row container">
+          
+            <div class="col-md-8 intro-text-col">
               <h1 class="page-title normal-text" id="name">Su Latt Phone</h1>
               <h6 class="description normal-text">
                 Aspiring Software Engineer Learning to Grow
@@ -56,17 +56,17 @@
                 Objectd-Oriented Programming, Web Development, and Cybersecurity
               </h6>
             </div>
-            <div class="col-md-5 intro-img-col">
+            <div class="col-md-4 intro-img-col">
               <img class="profile-img" src="images/intlOrienatation_square.jpg"/>
             </div>
             <div class="row downBtnRow">
               <div class="downIconDiv">
-                <a class = "btn btnDesign"href = "#about">
-                  <i class="fas fa-chevron-circle-down"></i>
+                <a class = "btnDesign" id="downBtn" href = "#about">
+                  <i class="fas fa-arrow-down"></i>
                 </a>
               </div>  <!-- end of downIconDiv -->
             </div>   <!-- end of downBtnRow -->
-          </div>   <!-- end of introOverlay -->
+          
         </div>     <!-- end of intro-row -->
       </section>
 
@@ -74,35 +74,55 @@
         <!-- <div class="container"> -->
           <section id="about">
             <div class="row about-row">
-              <h4 class="sub-heading">About Me</h4>
-              <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius imperdiet diam non venenatis. Ut suscipit pulvinar ex id luctus. In sodales quam et tempus consequat. In elementum fermentum venenatis. Cras turpis nisl, aliquet et hendrerit et, blandit ac felis. Maecenas risus libero, consectetur sed diam ac, suscipit lacinia sapien. Cras et accumsan orci. Maecenas consequat dui ultrices massa venenatis, sit amet sollicitudin tortor aliquet. Nullam molestie velit ut lobortis egestas.</p>
-            </div>
-            <h5 class="sub-sub-heading">Education</h5>
-            <p class="normal-text school-text">University of California - Berkeley Aug 2019 - May 2021</p>
-            <p class="normal-text">Relevant Courses:
+              <div class="aboutMeDesc">
+                <h4 class="sub-heading">About Me</h4>
+                <p class="normal-text">
+                  Hello, I'm a junior at University of California, Berkeley studying EECS (Electrical Engineering and Computer Science).  My journey in CS
+  started when I became very curious about the inner workings of the various software and technology I had been taking for granted.
+  As of now, I've been learning in-depth about data structures and algorithms, object-oriented programming and web development.  
+  Beyond that, I have my eyes set on exploring more into Cybersecurity and mobile development.
+                </p>
+              </div>
+              <div class="educationDiv">
+                <h5 class="sub-sub-heading">Education</h5>
+                <div class="col-md-4 picCol">
+                  <img class="berkeleyLogo" src="images/ucbseal.png"/>
+                </div>
+                <div class="col-md-8 rightTextCol">
+                  <p class="normal-text school-text">University of California - Berkeley Aug 2019 - May 2021</p>
+                  <p class="normal-text">Relevant Courses:
+                    <ul>
+                      <li>CS61A: Structure and Interpretation of Computer Programs</li>
+                      <li>EE16A: Designing Information Devices and Systems I</li>
+                      <li>CS70: Discrete Mathematics and Probability Theory</li>
+                    </ul>
+                  </p>
+                </div>  <!-- end of rightTextCol -->
+                
+                <div class="col-md-4 picCol">
+                  <img class="csmLogo" src="images/csmlogo.jpg"/>
+                </div>
+                <div class="col-md-8 rightTextCol">
+                  <p class="normal-text school-text">College of San Mateo Aug 2017 - May 2019</p>
+                  <p class="normal-text">Relevant Courses:
+                    <ul>
+                      <li>Introduction to Object-Oriented Program Design</li>
+                      <li>Programming Methods: Java</li>
+                      <li>Data Structures: Java</li>
+                      <li>Computer Architecture and Assembly Language</li>
+                      <li>Introduction to Databases</li>
+                    </ul>
+                    </p>
+                </div>  <!-- end of rightTextCol -->
+              </div>      <!-- end of educationDiv -->
+              
+              <h5 class="sub-sub-heading">Technical Skills</h5>
               <ul>
-                <li>CS61A: Structure and Interpretation of Computer Programs</li>
-                <li>EE16A: Designing Information Devices and Systems I</li>
-                <li>CS70: Discrete Mathematics and Probability Theory</li>
+                <li>Proficient: Java, HTML, CSS</li>
+                <li>Intermediate: Python, Javascript, Arduino</li>
+                <li>Beginner: SQL, Assembly, React, Node.js, MongoDB</li>
               </ul>
-            </p>
-            
-            <p class="normal-text school-text">College of San Mateo Aug 2017 - May 2019</p>
-            <p class="normal-text">Relevant Courses:
-            <ul>
-              <li>Introduction to Object-Oriented Program Design</li>
-              <li>Programming Methods: Java</li>
-              <li>Data Structures: Java</li>
-              <li>Computer Architecture and Assembly Language</li>
-              <li>Introduction to Databases</li>
-            </ul>
-            </p>
-            <h5 class="sub-sub-heading">Technical Skills</h5>
-            <ul>
-              <li>Proficient: Java, HTML, CSS</li>
-              <li>Intermediate: Python, Javascript, Arduino</li>
-              <li>Beginner: SQL, Assembly, React, Node.js, MongoDB</li>
-            </ul>
+            </div>
           </section>
 
           <section id="experience">
