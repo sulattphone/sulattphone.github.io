@@ -54,8 +54,7 @@ body{
 
 .intro-text-col{
     /*text-align: center;*/
-    padding: 5em 1em 1em 1em;
-    color: white;
+    padding: 10em 1em 1em 5em;
 }
 
 .intro-img-col{
@@ -90,13 +89,13 @@ body{
 }
 
 .berkeleyLogo{
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .csmLogo{
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 /***** about section *****/
 
