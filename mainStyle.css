@@ -9,6 +9,7 @@ body{
 
 .custom-navbar{
     background-color: #1f1f1f !important;
+    height: 50px;
 }
 
 #brand-img{
@@ -22,6 +23,7 @@ body{
 
 .normalText{
     font-family: 'Times New Roman', serif;
+    color: white;
 }
 
 .background{
@@ -43,12 +45,19 @@ body{
     border-radius: 10px; /* Rounded corners */
 }
 
+
+
 /***** Universal End *****/
 
 /***** intro section *****/
+#intro{
+    margin-top: 50px;
+}
+
 .intro-row{
     height: 30%;
     background-image: linear-gradient(-15deg, #1f1f1f, #ffff4d);
+    color: black;
     
 }
 
@@ -89,13 +98,13 @@ body{
 }
 
 .berkeleyLogo{
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 200px;
 }
 
 .csmLogo{
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 250px;
 }
 /***** about section *****/
 
@@ -107,7 +116,6 @@ body{
 
 .footer-body{
     background-color: #1f1f1f;
-    color: white;
 }
 /***** footer section *****/
 
