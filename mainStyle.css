@@ -48,7 +48,10 @@ body{
     border-radius: 10px; /* Rounded corners */
 }
 
-
+.accompanyingImages{
+    width: 100px;
+    height: 100px;
+}
 
 /***** Universal End *****/
 
@@ -100,19 +103,15 @@ body{
     font-weight: bold;
 }
 
-.berkeleyLogo{
-    width: 100;
-    height: 100px;
+#berkeleyLogo{
 }
 
-.csmLogo{
-    width: 100px;
-    height: 100px;
+#csmLogo{
+   
 }
 
-.ieeeBerkLogo{
-    width: 100px;
-    height: 100px;
+#ieeeBerkLogo{
+  
 }
 
 /***** about section *****/
