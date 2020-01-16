@@ -5,7 +5,7 @@ html{
 
 body{
     /*position: relative;*/
-    color: white;
+
 }
 
 .custom-navbar{
@@ -31,6 +31,7 @@ body{
     /*background-color: #ffff4d;*/
     background-color: #262626;
     /*background-image: linear-gradient(-15deg, #1f1f1f, #ffff4d);*/
+    color: white;
 }
 
 .content-body{
