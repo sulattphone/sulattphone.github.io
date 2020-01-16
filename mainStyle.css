@@ -50,7 +50,9 @@ body{
 .accompanyingImages{
     width: 100px;
     height: 100px;
-    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
 
 .topIcon{
