@@ -50,6 +50,7 @@ body{
 .accompanyingImages{
     width: 100px;
     height: 100px;
+    margin: auto;
 }
 
 .topIcon{
@@ -68,7 +69,7 @@ body{
 }
 
 .piccol{
-    padding: auto;
+
 }
 
 
