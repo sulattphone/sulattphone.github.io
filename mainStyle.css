@@ -112,12 +112,32 @@ body{
 /***** intro section *****/
 
 /***** about section *****/
+#about{
+    padding-top: 70px;
+}
+
 .school{
     font-weight: bold;
 }
 
 
 /***** about section *****/
+
+
+/***** experience section *****/
+#experience{
+    padding-top: 70px;
+}
+/***** experience section *****/
+
+/***** project section *****/
+#projects{
+    padding-top: 70px;
+}
+/***** project section *****/
+
+
+
 
 /***** footer section *****/
 .page-footer{
