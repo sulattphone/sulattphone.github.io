@@ -85,8 +85,6 @@ body{
 
 
 #downBtn{
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 50%; /* Place the button 50% from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -103,16 +101,6 @@ body{
     font-weight: bold;
 }
 
-#berkeleyLogo{
-}
-
-#csmLogo{
-   
-}
-
-#ieeeBerkLogo{
-  
-}
 
 /***** about section *****/
 
