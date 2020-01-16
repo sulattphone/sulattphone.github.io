@@ -67,6 +67,11 @@ body{
   font-size: 18px; /* Increase font size */
 }
 
+.piccol{
+    padding: auto;
+}
+
+
 /***** Universal End *****/
 
 /***** intro section *****/
