@@ -84,7 +84,7 @@ body{
     color: white;
 }
 
-#textLink:hover{
+#text-link:hover{
     color: yellow;
     text-decoration: none;
 }
