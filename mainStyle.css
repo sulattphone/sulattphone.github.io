@@ -73,8 +73,6 @@ body{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  width: 50px;
-  height: auto;
 }
 
 .piccol{
@@ -130,8 +128,6 @@ body{
   border-radius: 50%;
   left: 50%;
   color: yellow;
-  width: 50px;
-  height: auto;
   /*background-color: red; /* Set a background color */
   /*color: white; /* Text color */
 }
