@@ -51,7 +51,7 @@ body{
 
 
 .btnDesgin:hover{
-    box-shadow: 2px 2px 5px yellow;
+    box-shadow: 2px 2px 5px white;
     transform: translateY(-2px);
 }
 
@@ -74,12 +74,6 @@ body{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:yellow; /* Set a background color */
-  color: black; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 50%; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
 }
 
 .piccol{
@@ -87,8 +81,13 @@ body{
 }
 
 
+text-link{
+    text-decoration: none;
+}
+
 .textLink:hover{
     color: yellow;
+    text-decoration: none;
 }
 
 
