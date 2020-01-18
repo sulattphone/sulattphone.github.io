@@ -61,8 +61,6 @@ body{
     width: 100px;
     height: 100px;
     position: relative;
-    display: block;
-    align-self: auto;
 }
 
 .topIcon{
