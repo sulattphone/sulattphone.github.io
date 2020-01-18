@@ -5,7 +5,8 @@ window.onscroll = function(){topIconVisible()};
 
 // Making the topIcon appear only after scrolling down 66px
 function topIconVisible() {
-    if(window.body.scrollTop > 66 || window.documentElement.scrollTop > 66)
+    var height = window.scrollTop();
+    if(height > 66 )
     {
         topScrollIcon.style.display = block;
     }
