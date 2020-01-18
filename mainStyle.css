@@ -63,7 +63,10 @@ body{
     position: relative;
 }
 
-.topIcon{
+
+
+#top-icon{
+  display: none;
   color: yellow;
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -71,10 +74,6 @@ body{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-}
-
-#top-icon{
-  display: none;
 }
 
 .piccol{
@@ -96,7 +95,7 @@ body{
 
 /***** intro section *****/
 #intro{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .intro-row{
