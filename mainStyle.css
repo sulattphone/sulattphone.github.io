@@ -67,7 +67,7 @@ body{
 
 
 #top-icon{
-  display: none;
+  /*display: none;*/
   color: yellow;
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
