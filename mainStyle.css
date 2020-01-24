@@ -60,7 +60,7 @@ body{
 .accompanyingImages{
     width: 100px;
     height: 100px;
-    display: inline-block;
+    display: inline;
     text-align: center;
 }
 
@@ -81,11 +81,11 @@ body{
 
 
 #text-link{
-    color: white;
+    color: yellow;
 }
 
 #text-link:hover{
-    color: yellow;
+
     text-decoration: none;
 }
 
