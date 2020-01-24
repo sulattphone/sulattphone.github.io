@@ -58,8 +58,8 @@ body{
 }
 
 .accompanyingImages{
-    width: 100px;
-    height: 100px;
+    height: 100%;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
